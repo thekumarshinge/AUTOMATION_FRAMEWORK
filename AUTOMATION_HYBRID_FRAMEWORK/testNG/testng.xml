@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="tests" name="Reader">
+
+	<!-- ************* TOTAL TEST METHODS ARE PASSED ************* -->
+
+	<!-- Basic Details (i.e., appname, testername, os and browser) parameter 
+		sent for report generation thread-count="5" parallel="tests" -->
+	<parameter name="appname" value="APP" />
+	<parameter name="testername" value="Kumar Shinge" />
+	<parameter name="os" value="Windows 10" />
+
+	<!-- Basic Details Of Browser & Role parameter sent for test -->
+	<parameter name="browser" value="Headless_Chrome" />
+	<!--<parameter name="browser" value="Chrome" /> -->
+	<parameter name="role" value="USER" />
+
+	<test name="HOME">
+		<classes>
+			<class name="com.test.HomePageTestClass">
+				<methods>
+					<!-- Login -->
+					<include name="APP_001" />
+
+					<!-- verify  (Home) Screen -->
+					<include name="APP_002" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

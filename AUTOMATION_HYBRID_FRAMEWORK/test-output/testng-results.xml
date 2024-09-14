@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[SUITE] [11/Aug/2023 01:26:47] :: ABOUT TO BEGIN EXECUTING :: Failed suite [Failed suite [DESIGNER]]
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:26:48] :: STARTED REPORT CREATION !!!]]>
+    </line>
+    <line>
+      <![CDATA[[TEST] [11/Aug/2023 01:26:48] :: ABOUT TO BEGIN EXECUTING :: Master Development(failed)(failed)
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:26:52] :: 'Headless_Chrome' BROWSER IS LAUNCHED !!!]]>
+    </line>
+    <line>
+      <![CDATA[[TEST METHOD] [11/Aug/2023 01:26:52] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_001
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: LOGIN TO MTS !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Method : MTS_MasterDevelopment_001
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Method had the following parameters : Designer
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Status : PASSED
+]]>
+    </line>
+    <line>
+      <![CDATA[[TEST METHOD] [11/Aug/2023 01:27:28] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_002
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:38] :: CLICKED ON 'MTS' LOGO!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:39] :: MTS APPLICATIONS NAVIGATION TABS OF 'DESIGNER' ROLE IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:41] :: MASTER DEVELOPMENT (All SASFs) SCREEN IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:43] :: CLICKED ON 'MY SASF' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:46] :: MASTER DEVELOPMENT (My SASFs) SCREEN IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:51] :: CLICKED ON 'MTS' LOGO!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: CLICKED ON 'ALL SASF' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Method : MTS_MasterDevelopment_002
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Method had the following parameters : Designer
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Status : PASSED
+]]>
+    </line>
+    <line>
+      <![CDATA[[TEST METHOD] [11/Aug/2023 01:27:53] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_010_Rescinded
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:27:58] :: CLICKED ON 'MTS' LOGO!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:00] :: CLICKED ON 'ALL SASF' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:03] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:08] :: CLICKED ON 'RESET' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:10] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:11] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:44] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:49] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:28:49] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:04] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:06] :: CLICKED ON 'SEARCH' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:06] :: SASF RECORDS ARE FOUND!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:08] :: CLICKED ON SASF NO.: '08/09/2023**13' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:15] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:20] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:24] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:29:57] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[(1) Download the SASF Details in PDF file.]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:01] :: CLICKED ON 'PRINT SASF' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: FILE IS DOWNLOADED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: FILE IS DELETED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: 'PRINT SASF' PERFORMED!!!]]>
+    </line>
+    <line>
+      <![CDATA[(2) View History of SASF]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:14] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:21] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:23] :: 'VIEW HISTORY' PERFORMED!!!]]>
+    </line>
+    <line>
+      <![CDATA[<=========================_!!! Edit SASF Details !!!_=========================>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:30] :: CLICKED ON 'EDIT' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:32] :: 'SASF DETAILS (EDITABLE)' SCREEN IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:40] :: Expected Message :: Saved Successfully || Actual Message :: Saved Successfully]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:40] :: MESSAGE IS CAPTURED !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:46] :: SASF DETAILS EDITAED & SAVED SUCCESSFULLY!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:46] :: 'EDIT SASF DETAILS' PERFORMED!!!]]>
+    </line>
+    <line>
+      <![CDATA[<=========================_!!! View List of Supplier Email related to SASF !!!_=========================>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:52] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:54] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:30:58] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:31:45] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:31:45] :: MESSAGE IS CAPTURED !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:31:57] :: 'EMAIL SUPPLIER' PERFORMED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:02] :: CLICKED ON 'MTS' LOGO!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:04] :: CLICKED ON 'ALL SASF' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:07] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:12] :: CLICKED ON 'RESET' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:14] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:14] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:48] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:53] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:32:53] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:07] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:10] :: CLICKED ON 'SEARCH' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:10] :: SASF RECORDS ARE FOUND!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:13] :: CLICKED ON SASF NO.: '08/09/2023**13' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:20] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:24] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:33:29] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:02] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[<=========================_!!! Delete SASF At Any Stage by Creator of respective Admin or Designer!!!_=========================>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:06] :: CLICKED ON 'EDIT' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:08] :: 'SASF DETAILS (EDITABLE)' SCREEN IS VERIFIED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:12] :: CLICKED ON 'DELETE SASF' BUTTON!!!]]>
+    </line>
+    <line>
+      <![CDATA[Expected Message :: Do you want to delete 08/09/2023**13
+Actual Message :: Do you want to delete 08/09/2023**13]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:22] :: Expected Message :: Deleted Successfully || Actual Message :: Deleted Successfully]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:22] :: MESSAGE IS CAPTURED !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: 'DELETE SASF' PERFORMED!!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Method : MTS_MasterDevelopment_010_Rescinded
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Method had the following parameters : Designer
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Status : PASSED
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:29] :: BROWSER IS CLOSED !!!]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] [11/Aug/2023 01:34:31] :: TEST REPORT IS READY !!!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-11T13:26:48 IST" name="Failed suite [Failed suite [DESIGNER]]" finished-at="2023-08-11T13:34:29 IST" duration-ms="461259">
+    <groups>
+    </groups>
+    <test started-at="2023-08-11T13:26:48 IST" name="Master Development(failed)(failed)" finished-at="2023-08-11T13:34:29 IST" duration-ms="461259">
+      <class name="com.MTS.test.MasterDevelopmentTestClass">
+        <test-method is-config="true" signature="SetupReport(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:26:47 IST" name="SetupReport" finished-at="2023-08-11T13:26:48 IST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Designer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar Shinge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Headless_Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:26:48] :: STARTED REPORT CREATION !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetupReport -->
+        <test-method is-config="true" signature="DriverOpen(java.lang.String)[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:26:48 IST" name="DriverOpen" finished-at="2023-08-11T13:26:52 IST" duration-ms="3864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headless_Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:26:52] :: 'Headless_Chrome' BROWSER IS LAUNCHED !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DriverOpen -->
+        <test-method signature="MTS_MasterDevelopment_001(java.lang.String)[pri:1, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:26:52 IST" name="MTS_MasterDevelopment_001" description="Login Into MTS (For All Role)" finished-at="2023-08-11T13:27:28 IST" duration-ms="36155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Designer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TEST METHOD] [11/Aug/2023 01:26:52] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_001
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: LOGIN TO MTS !!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Method : MTS_MasterDevelopment_001
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Method had the following parameters : Designer
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:28] :: Test Status : PASSED
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MTS_MasterDevelopment_001 -->
+        <test-method is-config="true" signature="SetStatus(org.testng.ITestResult)[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:27:28 IST" name="SetStatus" finished-at="2023-08-11T13:27:28 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MTS_MasterDevelopment_001 status=SUCCESS method=MasterDevelopmentTestClass.MTS_MasterDevelopment_001(java.lang.String)[pri:1, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83] output=[TEST METHOD] [11/Aug/2023 01:26:52] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_001
+]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetStatus -->
+        <test-method signature="MTS_MasterDevelopment_002(java.lang.String)[pri:2, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:27:28 IST" name="MTS_MasterDevelopment_002" description="Verify Master Development (Home) Screen (For All Role)" finished-at="2023-08-11T13:27:53 IST" depends-on-methods="com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_001" duration-ms="25144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Designer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TEST METHOD] [11/Aug/2023 01:27:28] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_002
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:38] :: CLICKED ON 'MTS' LOGO!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:39] :: MTS APPLICATIONS NAVIGATION TABS OF 'DESIGNER' ROLE IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:41] :: MASTER DEVELOPMENT (All SASFs) SCREEN IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:43] :: CLICKED ON 'MY SASF' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:46] :: MASTER DEVELOPMENT (My SASFs) SCREEN IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:51] :: CLICKED ON 'MTS' LOGO!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: CLICKED ON 'ALL SASF' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Method : MTS_MasterDevelopment_002
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Method had the following parameters : Designer
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:53] :: Test Status : PASSED
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MTS_MasterDevelopment_002 -->
+        <test-method is-config="true" signature="SetStatus(org.testng.ITestResult)[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:27:53 IST" name="SetStatus" finished-at="2023-08-11T13:27:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MTS_MasterDevelopment_002 status=SUCCESS method=MasterDevelopmentTestClass.MTS_MasterDevelopment_002(java.lang.String)[pri:2, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83] output=[TEST METHOD] [11/Aug/2023 01:27:28] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_002
+]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetStatus -->
+        <test-method signature="MTS_MasterDevelopment_010_Rescinded(java.lang.String)[pri:10, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:27:53 IST" name="MTS_MasterDevelopment_010_Rescinded" description="SASF Details Screen : &#039;Rescinded&#039; Status (FOR All ROLE)" finished-at="2023-08-11T13:34:28 IST" depends-on-methods="com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_002" duration-ms="395201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Designer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[TEST METHOD] [11/Aug/2023 01:27:53] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_010_Rescinded
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:27:58] :: CLICKED ON 'MTS' LOGO!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:00] :: CLICKED ON 'ALL SASF' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:03] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:08] :: CLICKED ON 'RESET' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:10] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:11] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:44] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:49] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:28:49] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:04] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:06] :: CLICKED ON 'SEARCH' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:06] :: SASF RECORDS ARE FOUND!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:08] :: CLICKED ON SASF NO.: '08/09/2023**13' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:15] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:20] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:24] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:29:57] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[(1) Download the SASF Details in PDF file.]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:01] :: CLICKED ON 'PRINT SASF' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: FILE IS DOWNLOADED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: FILE IS DELETED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:06] :: 'PRINT SASF' PERFORMED!!!]]>
+            </line>
+            <line>
+              <![CDATA[(2) View History of SASF]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:14] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:21] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:23] :: 'VIEW HISTORY' PERFORMED!!!]]>
+            </line>
+            <line>
+              <![CDATA[<=========================_!!! Edit SASF Details !!!_=========================>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:30] :: CLICKED ON 'EDIT' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:32] :: 'SASF DETAILS (EDITABLE)' SCREEN IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:40] :: Expected Message :: Saved Successfully || Actual Message :: Saved Successfully]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:40] :: MESSAGE IS CAPTURED !!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:46] :: SASF DETAILS EDITAED & SAVED SUCCESSFULLY!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:46] :: 'EDIT SASF DETAILS' PERFORMED!!!]]>
+            </line>
+            <line>
+              <![CDATA[<=========================_!!! View List of Supplier Email related to SASF !!!_=========================>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:52] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:54] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:30:58] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:31:45] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:31:45] :: MESSAGE IS CAPTURED !!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:31:57] :: 'EMAIL SUPPLIER' PERFORMED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:02] :: CLICKED ON 'MTS' LOGO!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:04] :: CLICKED ON 'ALL SASF' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:07] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:12] :: CLICKED ON 'RESET' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:14] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:14] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:48] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:53] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:32:53] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:07] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:10] :: CLICKED ON 'SEARCH' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:10] :: SASF RECORDS ARE FOUND!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:13] :: CLICKED ON SASF NO.: '08/09/2023**13' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:20] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:24] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:33:29] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:02] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[<=========================_!!! Delete SASF At Any Stage by Creator of respective Admin or Designer!!!_=========================>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:06] :: CLICKED ON 'EDIT' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:08] :: 'SASF DETAILS (EDITABLE)' SCREEN IS VERIFIED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:12] :: CLICKED ON 'DELETE SASF' BUTTON!!!]]>
+            </line>
+            <line>
+              <![CDATA[Expected Message :: Do you want to delete 08/09/2023**13
+Actual Message :: Do you want to delete 08/09/2023**13]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:22] :: Expected Message :: Deleted Successfully || Actual Message :: Deleted Successfully]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:22] :: MESSAGE IS CAPTURED !!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: 'DELETE SASF' PERFORMED!!!]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Method : MTS_MasterDevelopment_010_Rescinded
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Method had the following parameters : Designer
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:28] :: Test Status : PASSED
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MTS_MasterDevelopment_010_Rescinded -->
+        <test-method is-config="true" signature="SetStatus(org.testng.ITestResult)[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:34:28 IST" name="SetStatus" finished-at="2023-08-11T13:34:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MTS_MasterDevelopment_010_Rescinded status=SUCCESS method=MasterDevelopmentTestClass.MTS_MasterDevelopment_010_Rescinded(java.lang.String)[pri:10, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83] output=[TEST METHOD] [11/Aug/2023 01:27:53] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_010_Rescinded
+]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetStatus -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:34:28 IST" name="TearDown" finished-at="2023-08-11T13:34:29 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:29] :: BROWSER IS CLOSED !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="FlushReport()[pri:0, instance:com.MTS.test.MasterDevelopmentTestClass@7188af83]" started-at="2023-08-11T13:34:29 IST" name="FlushReport" finished-at="2023-08-11T13:34:31 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] [11/Aug/2023 01:34:31] :: TEST REPORT IS READY !!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FlushReport -->
+      </class> <!-- com.MTS.test.MasterDevelopmentTestClass -->
+    </test> <!-- Master Development(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [DESIGNER]] -->
+</testng-results>

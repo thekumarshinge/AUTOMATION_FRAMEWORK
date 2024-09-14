@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Failed suite [DESIGNER]]" guice-stage="DEVELOPMENT">
+  <parameter name="role" value="Designer"/>
+  <parameter name="appname" value="MTS"/>
+  <parameter name="os" value="Windows 10"/>
+  <parameter name="browser" value="Headless_Chrome"/>
+  <parameter name="testername" value="Kumar Shinge"/>
+  <test thread-count="5" parallel="tests" name="Master Development(failed)(failed)">
+    <classes>
+      <class name="com.MTS.test.MasterDevelopmentTestClass">
+        <methods>
+          <include name="MTS_MasterDevelopment_002"/>
+          <include name="MTS_MasterDevelopment_001"/>
+          <include name="DriverOpen"/>
+          <include name="SetStatus"/>
+          <include name="MTS_MasterDevelopment_010_Rescinded" invocation-numbers="0"/>
+          <include name="SetupReport"/>
+          <include name="TearDown"/>
+          <include name="FlushReport"/>
+        </methods>
+      </class> <!-- com.MTS.test.MasterDevelopmentTestClass -->
+    </classes>
+  </test> <!-- Master Development(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [DESIGNER]] -->

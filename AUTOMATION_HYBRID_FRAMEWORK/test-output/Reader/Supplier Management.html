@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>TestNG:  Supplier Management</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Supplier Management</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 11 09:25:15 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>98 seconds (98160 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MTS.test.SupplierManagementTestClass.MTS_SupplierManagement_005_Search()'><b>MTS_SupplierManagement_005_Search</b><br>Test class: com.MTS.test.SupplierManagementTestClass<br>Test method: Perform Search. (Only Reader Role)<br/>
+<a href="#Output-724915063" onClick='toggleBox("Output-724915063", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-724915063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-724915063">
+[TEST METHOD] [11/Aug/2023 09:26:46] :: ABOUT TO BEGIN EXECUTING :: MTS_SupplierManagement_005_Search
+<br/>
+[INFO] [11/Aug/2023 09:26:46] :: SUPPLIER RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:51] :: 'HBEDP LTD' IS SEARCHED!!!<br/>
+[INFO] [11/Aug/2023 09:26:52] :: Test Method resides in com.MTS.test.SupplierManagementTestClass
+<br/>
+[INFO] [11/Aug/2023 09:26:52] :: Test Method : MTS_SupplierManagement_005_Search
+<br/>
+[INFO] [11/Aug/2023 09:26:52] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.MTS.test.SupplierManagementTestClass@5e7cd6cc</td></tr>
+<tr>
+<td title='com.MTS.test.SupplierManagementTestClass.MTS_SupplierManagement_001()'><b>MTS_SupplierManagement_001</b><br>Test class: com.MTS.test.SupplierManagementTestClass<br>Test method: Login Into MTS and Verify Supplier Management Screen. (For All Role)<br>Parameters: Reader<br/>
+<a href="#Output-2048887835" onClick='toggleBox("Output-2048887835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2048887835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2048887835">
+[TEST METHOD] [11/Aug/2023 09:25:22] :: ABOUT TO BEGIN EXECUTING :: MTS_SupplierManagement_001
+<br/>
+[INFO] [11/Aug/2023 09:25:57] :: LOGIN TO MTS !!!<br/>
+[INFO] [11/Aug/2023 09:26:08] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:26:08] :: MTS APPLICATIONS NAVIGATION TABS OF 'READER' ROLE IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:26:13] :: CLICKED ON 'SUPPLIER MANAGEMENT' TAB!!!<br/>
+[INFO] [11/Aug/2023 09:26:13] :: 'ALL SUPPLIER' SCREEN IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Method resides in com.MTS.test.SupplierManagementTestClass
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Method : MTS_SupplierManagement_001
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>52</td>
+<td>com.MTS.test.SupplierManagementTestClass@5e7cd6cc</td></tr>
+<tr>
+<td title='com.MTS.test.SupplierManagementTestClass.MTS_SupplierManagement_004_Edit_Deactivate_Activate()'><b>MTS_SupplierManagement_004_Edit_Deactivate_Activate</b><br>Test class: com.MTS.test.SupplierManagementTestClass<br>Test method: View Supplier Detail Screen, Perform 'Edit' & 'Deactivate' at Supplier Detail Screen., and Perform 'Activate'. (For Admin, Designer & Material Engineer Role)<br>Parameters: Reader<br/>
+<a href="#Output-719433941" onClick='toggleBox("Output-719433941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-719433941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-719433941">
+[TEST METHOD] [11/Aug/2023 09:26:15] :: ABOUT TO BEGIN EXECUTING :: MTS_SupplierManagement_004_Edit_Deactivate_Activate
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: SUPPLIER RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:15] :: CAPTURED THE SUPPLIER : 'HBEDP LTD'<br/>
+[INFO] [11/Aug/2023 09:26:17] :: CLICKED ON SUPPLIER NAME : 'HBEDP LTD' HYPERLINK!!!<br/>
+<b>1) User should be able to view selected Supplier Detail (Non-Editable).</b><br/>
+[INFO] [11/Aug/2023 09:26:18] :: 'SUPPLIER DETAILS' (NON - EDITABLE) SCREEN IS VERIFIED!!!<br/>
+<b>2) User Should be able to Edit selected Supplier Details (Editable).</b><br/>
+[INFO] [11/Aug/2023 09:26:21] :: CLICKED ON 'EDIT' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:26:22] :: 'SUPPLIER DETAILS' (EDITABLE) SCREEN IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:26:30] :: Expected Message :: Saved Successfully || Actual Message :: Saved Successfully<br/>
+[INFO] [11/Aug/2023 09:26:30] :: MESSAGE IS CAPTURED !!!<br/>
+[INFO] [11/Aug/2023 09:26:37] :: EDITED 'SUPPLIER DETAILS' SAVED SUCCESSFULLY!!!<br/>
+</b>3) User should be able to Perform 'Deactivate' Supplier., and if User has role like Admin, Designer or Engineer then User able to 'Activate' Same Supplier, Otherwise NOT.</b><br/>
+[INFO] [11/Aug/2023 09:26:39] :: CLICKED ON 'DEACTIVATE SUPPLIER' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:26:39] :: Expected Message :: Deactivated Supplier Successfully
+Actual Message :: Deactivated Supplier Successfully<br/>
+[INFO] [11/Aug/2023 09:26:43] :: SUPPLIER DEACTIVATED SUCCESSFULLY!!!<br/>
+[INFO] [11/Aug/2023 09:26:46] :: MOVED TO 'ALL SUPPLIER' SCREEN!!!<br/>
+[INFO] [11/Aug/2023 09:26:46] :: Test Method resides in com.MTS.test.SupplierManagementTestClass
+<br/>
+[INFO] [11/Aug/2023 09:26:46] :: Test Method : MTS_SupplierManagement_004_Edit_Deactivate_Activate
+<br/>
+[INFO] [11/Aug/2023 09:26:46] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:26:46] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.MTS.test.SupplierManagementTestClass@5e7cd6cc</td></tr>
+</table><p>
+</body>
+</html>

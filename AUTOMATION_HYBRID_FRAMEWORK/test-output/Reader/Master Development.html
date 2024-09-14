@@ -1,0 +1,448 @@
+<html>
+<head>
+<title>TestNG:  Master Development</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Master Development</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 11 09:25:15 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>945 seconds (945596 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_009_Rejected()'><b>MTS_MasterDevelopment_009_Rejected</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: SASF Details Screen : 'Initiated' Status (FOR All ROLE)<br>Parameters: Reader<br/>
+<a href="#Output-938838277" onClick='toggleBox("Output-938838277", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-938838277" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-938838277">
+[TEST METHOD] [11/Aug/2023 09:35:20] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_009_Rejected
+<br/>
+[INFO] [11/Aug/2023 09:35:25] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:35:27] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:35:33] :: CLICKED ON 'RESET' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:35:35] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:35:35] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!<br/>
+[INFO] [11/Aug/2023 09:36:08] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!<br/>
+[INFO] [11/Aug/2023 09:36:13] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rejected'!!!<br/>
+[INFO] [11/Aug/2023 09:36:16] :: CLICKED ON 'SEARCH' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:36:16] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:36:18] :: CLICKED ON SASF NO.: '08/03/2023***3' || STATUS: 'Rejected' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:36:24] :: 'MATERIAL REJECTION COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:36:29] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:37:01] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!<br/>
+(1) Download the SASF Details in PDF file.<br/>
+[INFO] [11/Aug/2023 09:37:05] :: CLICKED ON 'PRINT SASF' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:37:10] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf<br/>
+[INFO] [11/Aug/2023 09:37:10] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:37:10] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:37:10] :: 'PRINT SASF' PERFORMED!!!<br/>
+(2) View History of SASF<br/>
+[INFO] [11/Aug/2023 09:37:18] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:37:24] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:37:26] :: 'VIEW HISTORY' PERFORMED!!!<br/>
+<=========================_!!! View List of Supplier Email related to SASF !!!_=========================><br/>
+[INFO] [11/Aug/2023 09:37:34] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:37:36] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:37:40] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:37:40] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully<br/>
+[INFO] [11/Aug/2023 09:37:40] :: MESSAGE IS CAPTURED !!!<br/>
+[INFO] [11/Aug/2023 09:37:52] :: 'EMAIL SUPPLIER' PERFORMED!!!<br/>
+[INFO] [11/Aug/2023 09:37:52] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:37:52] :: Test Method : MTS_MasterDevelopment_009_Rejected
+<br/>
+[INFO] [11/Aug/2023 09:37:52] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:37:52] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>151</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_008_Conditional()'><b>MTS_MasterDevelopment_008_Conditional</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: SASF Details Screen : 'Conditional' Status (FOR All ROLE)<br>Parameters: Reader<br/>
+<a href="#Output-260993868" onClick='toggleBox("Output-260993868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-260993868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-260993868">
+[TEST METHOD] [11/Aug/2023 09:32:44] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_008_Conditional
+<br/>
+[INFO] [11/Aug/2023 09:32:50] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:32:52] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:32:57] :: CLICKED ON 'RESET' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:32:59] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:32:59] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!<br/>
+[INFO] [11/Aug/2023 09:33:33] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!<br/>
+[INFO] [11/Aug/2023 09:33:38] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Conditional'!!!<br/>
+[INFO] [11/Aug/2023 09:33:40] :: CLICKED ON 'SEARCH' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:33:40] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:33:42] :: CLICKED ON SASF NO.: '07/28/2023***6' || STATUS: 'Conditional' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:33:49] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:33:53] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:34:26] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!<br/>
+(1) Download the SASF Details in PDF file.<br/>
+[INFO] [11/Aug/2023 09:34:30] :: CLICKED ON 'PRINT SASF' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:34:35] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf<br/>
+[INFO] [11/Aug/2023 09:34:35] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:34:35] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:34:35] :: 'PRINT SASF' PERFORMED!!!<br/>
+(2) View History of SASF<br/>
+[INFO] [11/Aug/2023 09:34:42] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:34:49] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:34:51] :: 'VIEW HISTORY' PERFORMED!!!<br/>
+<=========================_!!! View List of Supplier Email related to SASF !!!_=========================><br/>
+[INFO] [11/Aug/2023 09:35:00] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:35:01] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:35:06] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:35:09] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully<br/>
+[INFO] [11/Aug/2023 09:35:09] :: MESSAGE IS CAPTURED !!!<br/>
+[INFO] [11/Aug/2023 09:35:20] :: 'EMAIL SUPPLIER' PERFORMED!!!<br/>
+[INFO] [11/Aug/2023 09:35:20] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:35:20] :: Test Method : MTS_MasterDevelopment_008_Conditional
+<br/>
+[INFO] [11/Aug/2023 09:35:20] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:35:20] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>155</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_001()'><b>MTS_MasterDevelopment_001</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: Login Into MTS (For All Role)<br>Parameters: Reader<br/>
+<a href="#Output-2028153271" onClick='toggleBox("Output-2028153271", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2028153271" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2028153271">
+[TEST METHOD] [11/Aug/2023 09:25:22] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_001
+<br/>
+[INFO] [11/Aug/2023 09:25:57] :: LOGIN TO MTS !!!<br/>
+[INFO] [11/Aug/2023 09:25:57] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:25:57] :: Test Method : MTS_MasterDevelopment_001
+<br/>
+[INFO] [11/Aug/2023 09:25:57] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:25:57] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_010_Rescinded()'><b>MTS_MasterDevelopment_010_Rescinded</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: SASF Details Screen : 'Rescinded' Status (FOR All ROLE)<br>Parameters: Reader<br/>
+<a href="#Output-1913095521" onClick='toggleBox("Output-1913095521", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1913095521" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1913095521">
+[TEST METHOD] [11/Aug/2023 09:37:52] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_010_Rescinded
+<br/>
+[INFO] [11/Aug/2023 09:37:57] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:37:59] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:38:04] :: CLICKED ON 'RESET' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:38:06] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:38:06] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!<br/>
+[INFO] [11/Aug/2023 09:38:40] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!<br/>
+[INFO] [11/Aug/2023 09:38:45] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!<br/>
+[INFO] [11/Aug/2023 09:38:47] :: CLICKED ON 'SEARCH' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:38:47] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:38:50] :: CLICKED ON SASF NO.: '08/07/2023***4' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:38:56] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:39:32] :: 'MATERIAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:39:36] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:40:09] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!<br/>
+(1) Download the SASF Details in PDF file.<br/>
+[INFO] [11/Aug/2023 09:40:13] :: CLICKED ON 'PRINT SASF' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:40:18] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf<br/>
+[INFO] [11/Aug/2023 09:40:18] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:40:18] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:40:18] :: 'PRINT SASF' PERFORMED!!!<br/>
+(2) View History of SASF<br/>
+[INFO] [11/Aug/2023 09:40:25] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:40:31] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:40:34] :: 'VIEW HISTORY' PERFORMED!!!<br/>
+<=========================_!!! View List of Supplier Email related to SASF !!!_=========================><br/>
+[INFO] [11/Aug/2023 09:40:42] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:40:44] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:40:48] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:40:48] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully<br/>
+[INFO] [11/Aug/2023 09:40:48] :: MESSAGE IS CAPTURED !!!<br/>
+[INFO] [11/Aug/2023 09:41:00] :: 'EMAIL SUPPLIER' PERFORMED!!!<br/>
+[INFO] [11/Aug/2023 09:41:00] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:41:00] :: Test Method : MTS_MasterDevelopment_010_Rescinded
+<br/>
+[INFO] [11/Aug/2023 09:41:00] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:41:00] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>188</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_004_AdvancedSearch()'><b>MTS_MasterDevelopment_004_AdvancedSearch</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: Perform Advanced Search and Download list of Searched Result. (For All Role)<br>Parameters: Reader<br/>
+<a href="#Output-914635107" onClick='toggleBox("Output-914635107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-914635107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-914635107">
+[TEST METHOD] [11/Aug/2023 09:26:34] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_004_AdvancedSearch
+<br/>
+[INFO] [11/Aug/2023 09:26:34] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:34] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:34] :: CAPTURED THE SASF NO.: '08/03/2023***5' || STATUS: 'Completed' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:26:36] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:26:36] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!<br/>
+[INFO] [11/Aug/2023 09:27:10] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!<br/>
+[INFO] [11/Aug/2023 09:27:23] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!<br/>
+[INFO] [11/Aug/2023 09:27:27] :: CLICKED ON 'SEARCH' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:27:27] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:27:30] :: CLICKED ON 'PRINT' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:27:35] :: EXPECTED FILE :: SearchResult.pdf || ACTUAL FILE :: SearchResult.pdf<br/>
+[INFO] [11/Aug/2023 09:27:35] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:27:35] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:27:40] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:27:40] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:27:40] :: Test Method : MTS_MasterDevelopment_004_AdvancedSearch
+<br/>
+[INFO] [11/Aug/2023 09:27:40] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:27:40] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>66</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_006_Initiated()'><b>MTS_MasterDevelopment_006_Initiated</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: SASF Details Screen : 'Initiated' Status (FOR All ROLE)<br>Parameters: Reader<br/>
+<a href="#Output-1377508812" onClick='toggleBox("Output-1377508812", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1377508812" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1377508812">
+[TEST METHOD] [11/Aug/2023 09:27:40] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_006_Initiated
+<br/>
+[INFO] [11/Aug/2023 09:27:45] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:27:48] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:27:53] :: CLICKED ON 'RESET' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:27:55] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:27:55] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!<br/>
+[INFO] [11/Aug/2023 09:28:28] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!<br/>
+[INFO] [11/Aug/2023 09:28:34] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Initiated'!!!<br/>
+[INFO] [11/Aug/2023 09:28:36] :: CLICKED ON 'SEARCH' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:28:36] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:28:38] :: CLICKED ON SASF NO.: '08/09/2023**14' || STATUS: 'Initiated' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:28:42] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:29:15] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!<br/>
+(1) Download the SASF Details in PDF file.<br/>
+[INFO] [11/Aug/2023 09:29:19] :: CLICKED ON 'PRINT SASF' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:29:24] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf<br/>
+[INFO] [11/Aug/2023 09:29:24] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:29:24] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:29:24] :: 'PRINT SASF' PERFORMED!!!<br/>
+(2) View History of SASF<br/>
+[INFO] [11/Aug/2023 09:29:31] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:29:38] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:29:40] :: 'VIEW HISTORY' PERFORMED!!!<br/>
+<=========================_!!! View List of Supplier Email related to SASF !!!_=========================><br/>
+[INFO] [11/Aug/2023 09:29:49] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:29:50] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:29:55] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:29:56] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully<br/>
+[INFO] [11/Aug/2023 09:29:56] :: MESSAGE IS CAPTURED !!!<br/>
+[INFO] [11/Aug/2023 09:30:08] :: 'EMAIL SUPPLIER' PERFORMED!!!<br/>
+[INFO] [11/Aug/2023 09:30:08] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:30:08] :: Test Method : MTS_MasterDevelopment_006_Initiated
+<br/>
+[INFO] [11/Aug/2023 09:30:08] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:30:08] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>147</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_003_Search()'><b>MTS_MasterDevelopment_003_Search</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: Perform Search and Download list of Searched Result. (For All Role)<br>Parameters: Reader<br/>
+<a href="#Output-262556397" onClick='toggleBox("Output-262556397", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-262556397" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-262556397">
+[TEST METHOD] [11/Aug/2023 09:26:15] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_003_Search
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:15] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:15] :: CAPTURED THE SASF NO.: '08/03/2023***5' || STATUS: 'Completed' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:26:20] :: '08/03/2023***5' IS SEARCHED!!!<br/>
+[INFO] [11/Aug/2023 09:26:20] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:26:24] :: CLICKED ON 'PRINT' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:26:29] :: EXPECTED FILE :: SearchResult.pdf || ACTUAL FILE :: SearchResult.pdf<br/>
+[INFO] [11/Aug/2023 09:26:29] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:26:29] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:26:34] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:26:34] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:26:34] :: Test Method : MTS_MasterDevelopment_003_Search
+<br/>
+[INFO] [11/Aug/2023 09:26:34] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:26:34] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_007_Completed()'><b>MTS_MasterDevelopment_007_Completed</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: SASF Details Screen : 'Completed' Status (FOR All ROLE)<br>Parameters: Reader<br/>
+<a href="#Output-970886434" onClick='toggleBox("Output-970886434", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-970886434" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-970886434">
+[TEST METHOD] [11/Aug/2023 09:30:08] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_007_Completed
+<br/>
+[INFO] [11/Aug/2023 09:30:13] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:30:15] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:30:20] :: CLICKED ON 'RESET' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:30:22] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!<br/>
+[INFO] [11/Aug/2023 09:30:22] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!<br/>
+[INFO] [11/Aug/2023 09:30:56] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!<br/>
+[INFO] [11/Aug/2023 09:31:01] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Approved'!!!<br/>
+[INFO] [11/Aug/2023 09:31:03] :: CLICKED ON 'SEARCH' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:31:03] :: SASF RECORDS ARE FOUND!!!<br/>
+[INFO] [11/Aug/2023 09:31:05] :: CLICKED ON SASF NO.: '08/07/2023***1' || STATUS: 'Completed' || CREATOR: 'VENKATESH KAMATH'.<br/>
+[INFO] [11/Aug/2023 09:31:12] :: 'MATERIAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:31:16] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!<br/>
+[INFO] [11/Aug/2023 09:31:49] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!<br/>
+(1) Download the SASF Details in PDF file.<br/>
+[INFO] [11/Aug/2023 09:31:53] :: CLICKED ON 'PRINT SASF' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:31:58] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf<br/>
+[INFO] [11/Aug/2023 09:31:58] :: FILE IS DOWNLOADED!!!<br/>
+[INFO] [11/Aug/2023 09:31:58] :: FILE IS DELETED!!!<br/>
+[INFO] [11/Aug/2023 09:31:58] :: 'PRINT SASF' PERFORMED!!!<br/>
+(2) View History of SASF<br/>
+[INFO] [11/Aug/2023 09:32:05] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:32:12] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:32:14] :: 'VIEW HISTORY' PERFORMED!!!<br/>
+<=========================_!!! View List of Supplier Email related to SASF !!!_=========================><br/>
+[INFO] [11/Aug/2023 09:32:22] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:32:23] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:32:28] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!<br/>
+[INFO] [11/Aug/2023 09:32:33] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully<br/>
+[INFO] [11/Aug/2023 09:32:33] :: MESSAGE IS CAPTURED !!!<br/>
+[INFO] [11/Aug/2023 09:32:44] :: 'EMAIL SUPPLIER' PERFORMED!!!<br/>
+[INFO] [11/Aug/2023 09:32:44] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:32:44] :: Test Method : MTS_MasterDevelopment_007_Completed
+<br/>
+[INFO] [11/Aug/2023 09:32:44] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:32:44] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>156</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+<tr>
+<td title='com.MTS.test.MasterDevelopmentTestClass.MTS_MasterDevelopment_002()'><b>MTS_MasterDevelopment_002</b><br>Test class: com.MTS.test.MasterDevelopmentTestClass<br>Test method: Verify Master Development (Home) Screen (For All Role)<br>Parameters: Reader<br/>
+<a href="#Output-817543605" onClick='toggleBox("Output-817543605", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817543605" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817543605">
+[TEST METHOD] [11/Aug/2023 09:25:57] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_002
+<br/>
+[INFO] [11/Aug/2023 09:26:08] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:26:08] :: MTS APPLICATIONS NAVIGATION TABS OF 'READER' ROLE IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:26:10] :: MASTER DEVELOPMENT (Home) SCREEN IS VERIFIED!!!<br/>
+[INFO] [11/Aug/2023 09:26:15] :: CLICKED ON 'MTS' LOGO!!!<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Method : MTS_MasterDevelopment_002
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Method had the following parameters : Reader
+<br/>
+[INFO] [11/Aug/2023 09:26:15] :: Test Status : PASSED
+<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.MTS.test.MasterDevelopmentTestClass@7188af83</td></tr>
+</table><p>
+</body>
+</html>

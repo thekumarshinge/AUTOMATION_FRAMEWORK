@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link">
+              <span class="suite-name border-passed">Failed suite [Failed suite [DESIGNER]]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span>C:\System_Integration_Testing\Automation Workspace\MTS_AUTOMATION_V01\test-output\testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Failed_suite__Failed_suite__DESIGNER__" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" class="hide-methods passed suite-Failed_suite__Failed_suite__DESIGNER__"> (hide)</a> <!-- hide-methods passed suite-Failed_suite__Failed_suite__DESIGNER__ -->
+                      <a href="#" panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" class="show-methods passed suite-Failed_suite__Failed_suite__DESIGNER__"> (show)</a> <!-- show-methods passed suite-Failed_suite__Failed_suite__DESIGNER__ -->
+                    </span>
+                    <div class="method-list-content passed suite-Failed_suite__Failed_suite__DESIGNER__">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" title="com.MTS.test.MasterDevelopmentTestClass" class="method navigator-link" hash-for-method="MTS_MasterDevelopment_001(Designer)">MTS_MasterDevelopment_001(Designer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" title="com.MTS.test.MasterDevelopmentTestClass" class="method navigator-link" hash-for-method="MTS_MasterDevelopment_002(Designer)">MTS_MasterDevelopment_002(Designer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" title="com.MTS.test.MasterDevelopmentTestClass" class="method navigator-link" hash-for-method="MTS_MasterDevelopment_010_Rescinded(Designer)">MTS_MasterDevelopment_010_Rescinded(Designer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Failed_suite__Failed_suite__DESIGNER__ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite__Failed_suite__DESIGNER__" class="panel Failed_suite__Failed_suite__DESIGNER__">
+          <div class="suite-Failed_suite__Failed_suite__DESIGNER__-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MTS.test.MasterDevelopmentTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MTS_MasterDevelopment_001(Designer)">
+                  </a> <!-- MTS_MasterDevelopment_001(Designer) -->
+                  <span class="method-name">MTS_MasterDevelopment_001</span>
+                  <span class="parameters">(Designer)</span>
+                  <em>
+(Login Into MTS (For All Role))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MTS_MasterDevelopment_002(Designer)">
+                  </a> <!-- MTS_MasterDevelopment_002(Designer) -->
+                  <span class="method-name">MTS_MasterDevelopment_002</span>
+                  <span class="parameters">(Designer)</span>
+                  <em>
+(Verify Master Development (Home) Screen (For All Role))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MTS_MasterDevelopment_010_Rescinded(Designer)">
+                  </a> <!-- MTS_MasterDevelopment_010_Rescinded(Designer) -->
+                  <span class="method-name">MTS_MasterDevelopment_010_Rescinded</span>
+                  <span class="parameters">(Designer)</span>
+                  <em>
+(SASF Details Screen : 'Rescinded' Status (FOR All ROLE))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite__Failed_suite__DESIGNER__-class-passed -->
+        </div> <!-- panel Failed_suite__Failed_suite__DESIGNER__ -->
+        <div panel-name="test-xml-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\System_Integration_Testing\Automation Workspace\MTS_AUTOMATION_V01\test-output\testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Failed suite [Failed suite [DESIGNER]]&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;role&quot; value=&quot;Designer&quot;/&gt;
+  &lt;parameter name=&quot;appname&quot; value=&quot;MTS&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;Windows 10&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Headless_Chrome&quot;/&gt;
+  &lt;parameter name=&quot;testername&quot; value=&quot;Kumar Shinge&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Master Development(failed)(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.MTS.test.MasterDevelopmentTestClass&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;MTS_MasterDevelopment_002&quot;/&gt;
+          &lt;include name=&quot;MTS_MasterDevelopment_001&quot;/&gt;
+          &lt;include name=&quot;DriverOpen&quot;/&gt;
+          &lt;include name=&quot;SetStatus&quot;/&gt;
+          &lt;include name=&quot;MTS_MasterDevelopment_010_Rescinded&quot; invocation-numbers=&quot;0&quot;/&gt;
+          &lt;include name=&quot;SetupReport&quot;/&gt;
+          &lt;include name=&quot;TearDown&quot;/&gt;
+          &lt;include name=&quot;FlushReport&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.MTS.test.MasterDevelopmentTestClass --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Master Development(failed)(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Failed suite [DESIGNER]] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Failed suite [DESIGNER]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Master Development(failed)(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Failed suite [DESIGNER]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Failed suite [DESIGNER]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite__Failed_suite__DESIGNER__');
+function tableData_Failed_suite__Failed_suite__DESIGNER__() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MTS_MasterDevelopment_010_Rescinded')
+data.setCell(0, 2, 'com.MTS.test.MasterDevelopmentTestClass')
+data.setCell(0, 3, 395201);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'MTS_MasterDevelopment_001')
+data.setCell(1, 2, 'com.MTS.test.MasterDevelopmentTestClass')
+data.setCell(1, 3, 36155);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MTS_MasterDevelopment_002')
+data.setCell(2, 2, 'com.MTS.test.MasterDevelopmentTestClass')
+data.setCell(2, 3, 25144);
+window.suiteTableData['Failed_suite__Failed_suite__DESIGNER__']= { tableData: data, tableDiv: 'times-div-Failed_suite__Failed_suite__DESIGNER__'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Failed_suite__Failed_suite__DESIGNER__">
+              </div> <!-- times-div-Failed_suite__Failed_suite__DESIGNER__ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Failed suite [DESIGNER]]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MTS_MasterDevelopment_001(Designer)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[TEST METHOD] [11/Aug/2023 01:26:52] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_001
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:28] :: LOGIN TO MTS !!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:28] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:28] :: Test Method : MTS_MasterDevelopment_001
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:28] :: Test Method had the following parameters : Designer
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:28] :: Test Status : PASSED
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MTS_MasterDevelopment_010_Rescinded(Designer)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[TEST METHOD] [11/Aug/2023 01:27:53] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_010_Rescinded
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:58] :: CLICKED ON 'MTS' LOGO!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:00] :: CLICKED ON 'ALL SASF' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:03] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:08] :: CLICKED ON 'RESET' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:10] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:11] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:44] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:49] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:28:49] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:04] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:06] :: CLICKED ON 'SEARCH' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:06] :: SASF RECORDS ARE FOUND!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:08] :: CLICKED ON SASF NO.: '08/09/2023**13' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:15] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:20] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:24] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:29:57] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!</span>
+                <span class="reporter-method-output">(1) Download the SASF Details in PDF file.</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:01] :: CLICKED ON 'PRINT SASF' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:06] :: EXPECTED FILE :: SASFDetails.pdf || ACTUAL FILE :: SASFDetails.pdf</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:06] :: FILE IS DOWNLOADED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:06] :: FILE IS DELETED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:06] :: 'PRINT SASF' PERFORMED!!!</span>
+                <span class="reporter-method-output">(2) View History of SASF</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:14] :: CLICKED ON 'VIEW HISTORY' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:21] :: 'SASF HISTORY' DIALOG IS VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:23] :: 'VIEW HISTORY' PERFORMED!!!</span>
+                <span class="reporter-method-output"><=========================_!!! Edit SASF Details !!!_=========================></span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:30] :: CLICKED ON 'EDIT' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:32] :: 'SASF DETAILS (EDITABLE)' SCREEN IS VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:40] :: Expected Message :: Saved Successfully || Actual Message :: Saved Successfully</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:40] :: MESSAGE IS CAPTURED !!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:46] :: SASF DETAILS EDITAED & SAVED SUCCESSFULLY!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:46] :: 'EDIT SASF DETAILS' PERFORMED!!!</span>
+                <span class="reporter-method-output"><=========================_!!! View List of Supplier Email related to SASF !!!_=========================></span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:52] :: CLICKED ON 'EMAIL SUPPLIER' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:54] :: 'EMAIL SUPPLIER' DIALOG IS DISPLAYED AND VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:30:58] :: SELECT THE CHECKBOX OF SUPPLIER EMAIL AND CLICK ON 'SEND MAIL' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:31:45] :: Expected Message :: Mail Send Successfully || Actual Message :: Mail Send Successfully</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:31:45] :: MESSAGE IS CAPTURED !!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:31:57] :: 'EMAIL SUPPLIER' PERFORMED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:02] :: CLICKED ON 'MTS' LOGO!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:04] :: CLICKED ON 'ALL SASF' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:07] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:12] :: CLICKED ON 'RESET' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:14] :: CLICKED ON 'ADVANCED SEARCH' HYPERLINK!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:14] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:48] :: CLICKED ON 'SELECT ADVANCED SEARCH' DROPDOWN !!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:53] :: SELECT THE ADV. SEARCH CATAGORY IS 'Status' AND VALUE IS 'Rescinded'!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:32:53] :: ADVANCED SEARCH DIALOG IS DISPLAYED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:07] :: SELECT THE ADV. SEARCH CATAGORY IS 'Designer Name' AND VALUE IS 'VENKATESH KAMATH'!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:10] :: CLICKED ON 'SEARCH' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:10] :: SASF RECORDS ARE FOUND!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:13] :: CLICKED ON SASF NO.: '08/09/2023**13' || STATUS: 'Rescinded' || CREATOR: 'VENKATESH KAMATH'.</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:20] :: 'MATERIAL RESCIND COMMENT INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:24] :: 'MATERIAL APPROVAL COMMENT WITH CONDITION INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:33:29] :: 'VISUAL APPROVAL INFORMATION (ENGINEERING)' SECTION IS EXPANDED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:02] :: 'SASF DETAILS' SCREEN IS VERIFIED!!!</span>
+                <span class="reporter-method-output"><=========================_!!! Delete SASF At Any Stage by Creator of respective Admin or Designer!!!_=========================></span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:06] :: CLICKED ON 'EDIT' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:08] :: 'SASF DETAILS (EDITABLE)' SCREEN IS VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:12] :: CLICKED ON 'DELETE SASF' BUTTON!!!</span>
+                <span class="reporter-method-output">Expected Message :: Do you want to delete 08/09/2023**13
+Actual Message :: Do you want to delete 08/09/2023**13</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:22] :: Expected Message :: Deleted Successfully || Actual Message :: Deleted Successfully</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:22] :: MESSAGE IS CAPTURED !!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:28] :: 'DELETE SASF' PERFORMED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:28] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:28] :: Test Method : MTS_MasterDevelopment_010_Rescinded
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:28] :: Test Method had the following parameters : Designer
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:34:28] :: Test Status : PASSED
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MTS_MasterDevelopment_002(Designer)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[TEST METHOD] [11/Aug/2023 01:27:28] :: ABOUT TO BEGIN EXECUTING :: MTS_MasterDevelopment_002
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:38] :: CLICKED ON 'MTS' LOGO!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:39] :: MTS APPLICATIONS NAVIGATION TABS OF 'DESIGNER' ROLE IS VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:41] :: MASTER DEVELOPMENT (All SASFs) SCREEN IS VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:43] :: CLICKED ON 'MY SASF' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:46] :: MASTER DEVELOPMENT (My SASFs) SCREEN IS VERIFIED!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:51] :: CLICKED ON 'MTS' LOGO!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:53] :: CLICKED ON 'ALL SASF' BUTTON!!!</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:53] :: Test Method resides in com.MTS.test.MasterDevelopmentTestClass
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:53] :: Test Method : MTS_MasterDevelopment_002
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:53] :: Test Method had the following parameters : Designer
+</span>
+                <span class="reporter-method-output">[INFO] [11/Aug/2023 01:27:53] :: Test Status : PASSED
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.MTS.test.MasterDevelopmentTestClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">MTS_MasterDevelopment_005_CreateSASF</span>
+                <br/>
+                <span class="ignored-method-name">MTS_MasterDevelopment_006_Initiated</span>
+                <br/>
+                <span class="ignored-method-name">MTS_MasterDevelopment_008_Conditional</span>
+                <br/>
+                <span class="ignored-method-name">MTS_MasterDevelopment_007_Completed</span>
+                <br/>
+                <span class="ignored-method-name">MTS_MasterDevelopment_003_Search</span>
+                <br/>
+                <span class="ignored-method-name">MTS_MasterDevelopment_004_AdvancedSearch</span>
+                <br/>
+                <span class="ignored-method-name">MTS_MasterDevelopment_009_Rejected</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite__Failed_suite__DESIGNER__" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MTS.test.MasterDevelopmentTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">SetupReport(MTS, Designer, Kumar Shinge, Windows 10, Headless_Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">DriverOpen(Headless_Chrome)</span>
+                <span class="method-start">422 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">MTS_MasterDevelopment_001(Designer)</span>
+                <span class="method-start">4298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SetStatus([TestResult name=MTS_MasterDevelopment_001 status=SUCCESS method=MasterDevelopmentTestClass.MTS_Mast...)</span>
+                <span class="method-start">40461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">MTS_MasterDevelopment_002(Designer)</span>
+                <span class="method-start">40476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SetStatus([TestResult name=MTS_MasterDevelopment_002 status=SUCCESS method=MasterDevelopmentTestClass.MTS_Mast...)</span>
+                <span class="method-start">65624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">MTS_MasterDevelopment_010_Rescinded(Designer)</span>
+                <span class="method-start">65626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">SetStatus([TestResult name=MTS_MasterDevelopment_010_Rescinded status=SUCCESS method=MasterDevelopmentTestClas...)</span>
+                <span class="method-start">460830 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">460832 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">FlushReport</span>
+                <span class="method-start">461700 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
